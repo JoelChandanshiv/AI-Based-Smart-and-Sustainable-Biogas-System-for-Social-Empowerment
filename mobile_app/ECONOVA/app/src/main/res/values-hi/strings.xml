@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">इकोनोवा</string>
+    <string name="your_button_id">इको-डाइजेस्टर</string>
+    <string name="your_button_id2">पर्यावरण-संवर्धन</string>
+    <string name="hint_id">ढूँढ</string>
+    <string name="bio_id">बायोप्रेक्ट</string>
+    <string name="repo_id">QR स्कैन करें</string>
+    <string name="al_id">चेतावनियाँ</string>
+    <string name="adv_id">पर्यावरण सलाहकार</string>
+
+</resources>

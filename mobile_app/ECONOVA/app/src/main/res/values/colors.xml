@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gradient_start">#A3E0D9</color> <!-- Light blue at the top -->
+    <color name="gradient_center">#88C96A</color> <!-- Medium green in the middle -->
+    <color name="gradient_end">#2E7D32</color> <!-- Dark green at the bottom -->
+    <color name="gray_light">#D3D3D3</color> <!-- Light Gray -->
+    <color name="gray_medium">#A9A9A9</color> <!-- Medium Gray -->
+    <color name="gray_dark">#696969</color>
+    <color name="background_grey">#000066</color> <!-- Light grey -->
+    <color name="background_white">#5F5E5E</color> <!-- White -->
+    <color name="darkblue">#38347c</color>
+    <color name="cream">#fdfbd4</color><!-- Dark Gray -->
+    <color name="greeenedit">#6eb56c</color>
+
+
+</resources>

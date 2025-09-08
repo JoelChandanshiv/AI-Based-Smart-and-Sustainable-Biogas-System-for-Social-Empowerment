@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_button_id">इको-डायजेस्टर</string>
+    <string name="your_button_id2">इको-संवर्धन</string>
+    <string name="hint_id">शोधणे</string>
+    <string name="bio_id">जैवपूर्वानुमान</string>
+    <string name="repo_id">क्यूआर स्कॅन करा</string>
+    <string name="al_id">अलर्ट</string>
+    <string name="adv_id">इको अॅडव्हायझर</string>
+</resources>
