@@ -30,21 +30,6 @@ Our solution tackles both problems with **AI-driven automation** and **intellige
 
 ---
 
-## 🏗️ System Architecture
-
-```mermaid
-graph TD
-A[Waste Input] --> B[AI Segregation Unit (CNN)]
-B -->|Biogas-suitable| C[Mixing Tank & Digester]
-C --> D[Biogas Production]
-D --> E[Sensors (pH, Temp, Methane, CO₂, Pressure)]
-E --> F[Hybrid AI Model (LSTM + XGBoost)]
-F --> G[Dashboard (Power BI)]
-F --> H[Mobile App]
-H --> I[GenAI Chatbot]
-```
----
-
 ## ⚙️ Setup & Installation
 
 ### 1️⃣ Clone the Repository
