@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Lottie Animation View -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/signupanimation" />
+
+        <!-- Form Elements -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/lavender_border"
+                android:drawableStart="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:padding="16dp"
+                android:textColor="@color/gray_dark"
+                android:inputType="textEmailAddress" />
+
+            <!-- Password Input -->
+            <EditText
+                android:id="@+id/signup_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/lavender_border"
+                android:drawableStart="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:padding="16dp"
+                android:inputType="textPassword"
+                android:textColor="@color/gray_dark" />
+
+            <!-- Confirm Password Input -->
+            <EditText
+                android:id="@+id/signup_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/lavender_border"
+                android:drawableStart="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Confirm Password"
+                android:padding="16dp"
+                android:inputType="textPassword"
+                android:textColor="@color/gray_dark" />
+
+
+            <!-- Signup Button -->
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/shape"
+                android:text="Sign Up"
+                android:gravity="center"
+                android:paddingVertical="16dp"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+
+            <!-- Redirect to Login -->
+            <TextView
+                android:id="@+id/loginredirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"
+                android:text="Already a User? Login"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

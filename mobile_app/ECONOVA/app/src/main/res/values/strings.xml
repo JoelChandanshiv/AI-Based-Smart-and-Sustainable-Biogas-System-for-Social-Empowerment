@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ECONOVA</string>
+
+    <!-- Define the string as two parts: Eco-Digester and the smaller text -->
+    <string name="your_button_id">Eco-Digester</string>
+    <string name="your_button_id2">Eco-Enrichment</string>
+    <string name="hint_id">Search</string>
+    <string name="bio_id">Biopredicts</string>
+    <string name="repo_id">Scan QR</string>
+    <string name="al_id">Alerts</string>
+    <string name="adv_id">EcoAdviser</string>
+
+
+
+</resources>

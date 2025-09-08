@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainpageActivity"
+    android:background="@color/cream">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/econovabackremover" />
+
+        <EditText
+            android:id="@+id/hint_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/realedittextbackground"
+            android:drawableStart="@drawable/img"
+            android:drawablePadding="16dp"
+            android:drawableTint="@color/black"
+            android:ems="10"
+            android:hint="@string/hint_id"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="175dp"
+            app:srcCompat="@drawable/biogassssss" />
+
+        <Button
+            android:id="@+id/your_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_textbackground"
+            android:drawableEnd="@drawable/baseline_factory_24"
+            android:fontFamily="@font/alata"
+            android:gravity="center_vertical|start"
+            android:lineSpacingExtra="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/your_button_id"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/your_button_id2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edit_textbackground"
+            android:drawableEnd="@drawable/baseline_control_camera_24"
+            android:fontFamily="@font/alata"
+            android:gravity="center_vertical|start"
+            android:lineSpacingExtra="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/your_button_id2"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/cornerani" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/background_homeetc" />
+
+        <Button
+            android:id="@+id/opensensordata"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="650dp"
+            android:background="@drawable/circle_drawable"
+            android:drawableEnd="@drawable/graphs"
+            android:padding="17dp" />
+
+        <Button
+            android:id="@+id/opencamera"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="650dp"
+            android:background="@drawable/circle_drawable"
+
+            android:drawableTop="@drawable/baseline_photo_camera_24"
+            android:padding="20dp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginStart="180dp"
+            android:background="@drawable/circle_drawable"
+            android:drawableEnd="@drawable/alerts"
+            android:padding="17dp" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginStart="270dp"
+            android:background="@drawable/circle_drawable"
+            android:drawableEnd="@drawable/ecoadviser"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/bio_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="720dp"
+            android:fontFamily="@font/alata"
+            android:text="@string/bio_id"
+            android:textColor="@color/cream"
+             />
+
+        <TextView
+            android:id="@+id/repo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="720dp"
+            android:fontFamily="@font/alata"
+            android:text="@string/repo_id"
+            android:textColor="@color/cream"
+             />
+
+        <TextView
+            android:id="@+id/al_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="720dp"
+            android:fontFamily="@font/alata"
+            android:text="@string/al_id"
+            android:textColor="@color/cream"
+             />
+
+        <TextView
+            android:id="@+id/adv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="720dp"
+            android:fontFamily="@font/alata"
+            android:text="@string/adv_id"
+            android:textColor="@color/cream"/>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

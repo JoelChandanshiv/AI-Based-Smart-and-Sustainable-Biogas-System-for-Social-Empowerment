@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637063666079",
+    "project_id": "econova-7713a",
+    "storage_bucket": "econova-7713a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637063666079:android:c262eea75848e7a2bcc5aa",
+        "android_client_info": {
+          "package_name": "com.example.econova"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKvTpRSqPHav5X5h6kG0rF9SS8YC2CWo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
