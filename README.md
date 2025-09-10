@@ -28,10 +28,15 @@ Conventional biogas plants face two major challenges:
 ## 🌟 Key Features
 
 ✅ **Hybrid Biogas Quality Prediction** – LSTM + XGBoost model using sensor data (pH, temperature, methane %, CO₂ %, pressure).
+
 ✅ **IoT Integration** – Real-time sensors continuously stream data.
+
 ✅ **Mobile Application** – Farmers/operators can monitor plant health, see dashboards, and chat with a GenAI assistant.
+
 ✅ **Power BI Dashboard** – Interactive visualization of energy produced, efficiency trends, and predictions.
+
 ✅ **GenAI Chatbot** – Integrated inside mobile app (mock using Ollama/GPT4All/free LLM).
+
 ✅ **AI Agent** – Automates tasks like alerting, optimization suggestions, and report generation.
 
 ---
