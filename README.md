@@ -1,9 +1,15 @@
-# 🌱 Biogas Plant with Smart Waste Segregation, Hybrid AI, and GenAI Integration
+# 🌱 AI-Based-Smart-and-Sustainable-Biogas-System-for-Social-Empowerment
+🚀 Smart Biogas Production & Monitoring System powered by AI + IoT + GenAI
 
-🚀 **Smart Waste Segregation and Recycling System powered by AI + IoT + GenAI**
-This project showcases a complete **end-to-end solution** for biogas production optimization: from **AI-powered waste segregation**, to **biogas quality prediction using sensors**, to **real-time dashboards and mobile apps**, and finally a **GenAI chatbot and AI agent** for farmer/plant operator support.
+This project showcases a complete end-to-end solution for biogas production optimization:
 
-![System Design](/System%20Desgin.jpeg)
+- AI-driven biogas quality prediction using sensors
+
+- Real-time dashboards and mobile apps
+
+- A GenAI chatbot and AI agent for farmer/plant operator support
+
+![System Design](/ECONOVA.jpg)
 
 ---
 
@@ -11,16 +17,16 @@ This project showcases a complete **end-to-end solution** for biogas production 
 
 Conventional biogas plants face two major challenges:
 
-1. **Inefficient Waste Segregation** → leads to contamination and reduced gas yield.
-2. **Unpredictable Biogas Quality** → lack of real-time monitoring makes it hard to optimize.
+1️⃣ Unpredictable Biogas Quality – Lack of real-time monitoring reduces efficiency.
 
-Our solution tackles both problems with **AI-driven automation** and **intelligent decision support**.
+2️⃣ Limited Decision Support – Farmers/operators don’t get timely insights or corrective measures.
+
+✅ Our solution tackles both problems with AI-driven prediction, IoT automation, and GenAI decision support.
 
 ---
 
 ## 🌟 Key Features
 
-✅ **AI-powered Waste Segregation** – Camera + CNN model to classify waste into *biogas-suitable* and *non-suitable*.
 ✅ **Hybrid Biogas Quality Prediction** – LSTM + XGBoost model using sensor data (pH, temperature, methane %, CO₂ %, pressure).
 ✅ **IoT Integration** – Real-time sensors continuously stream data.
 ✅ **Mobile Application** – Farmers/operators can monitor plant health, see dashboards, and chat with a GenAI assistant.
@@ -30,36 +36,24 @@ Our solution tackles both problems with **AI-driven automation** and **intellige
 
 ---
 
-## ⚙️ Setup & Installation
+## 📝Summary of Prototype
+EcoNova: A Smart and Sustainable Biogas System for Rural Empowerment. 
 
-### 1️⃣ Clone the Repository
+Many farmers and rural communities struggle with low biogas production and poor-quality slurry from organic waste. Existing systems are inefficient, unsafe, and lack proper monitoring. There is a need for a simple, affordable solution to improve biogas yield, enrich slurry, and reduce pathogens for better use in farming. To design and implement an efficient, affordable, and user-friendly biogas system that maximizes gas production, enriches slurry for agricultural use, reduces harmful pathogens, and incorporates IoT-based monitoring, empowering rural communities with sustainable energy and high-quality organic fertilizer solutions. EcoNova is a sustainable biogas system that efficiently processes organic waste to produce renewable energy and high-quality fertilizer. The system begins by mixing organic waste with water in a mixing tank, then uses anaerobic digestion in a digester to generate biogas. Key parameters such as temperature, pressure, gas production rate, and slurry quality are monitored in real-time through IoT monitoring to ensure optimal system performance. The biogas is purified through water scrubbers to remove harmful gases like hydrogen sulphide and carbon dioxide, while the leftover slurry undergoes UV disinfection to eliminate pathogens. Finally, the slurry is enriched with nutrients in an enrichment tank, turning it into a safe, nutrient-rich fertilizer through the compost tea extractor method, which includes ingredients like corn leaves, roots, stalks, and vermicompost. This process helps reduce the salinity of the slurry, making it usable for all types of farms. Continuous oxygen is supplied during this process to ensure optimal conditions. This integrated solution empowers rural communities by providing clean energy and enhancing agricultural productivity in a simple, affordable, and environmentally friendly way.
 
-```bash
-git clone https://github.com/JoelChandanshiv/Smart-Waste-Segregation-Recycling-and-Autonomous-Biogas-Plant.git
-cd IIC United 3
-```
+---
+## 🎯 Problem Being Addressed  
 
-### 2️⃣ Install Dependencies
+Improper waste management and reliance on costly, polluting energy sources pose significant challenges in rural and urban regions. This project directly addresses:  
 
-```bash
-pip install -r requirements.txt
-```
+- **Waste Disposal Issues** → Reduces landfill waste by converting organic matter into useful resources.  
+- **Energy Shortages** → Provides a renewable and reliable energy source for cooking, heating, and power generation.  
+- **Agricultural Support** → Supplies natural fertilizer, reducing dependency on chemical fertilizers.  
 
-### 3️⃣ Run Waste Segregation Model
 
-```bash
-cd segregation_ai_model
-python inference.py --image sample_waste.jpg
-```
+--- 
 
-### 4️⃣ Run Biogas Quality Prediction
-
-```bash
-cd biogas_quality_model
-python predict.py --input sensor_data.json
-```
-
-### 5️⃣ Launch Mobile App
+### Launch Mobile App
 
 * Open `mobile_app/` in **Android Studio** (for Kotlin) .
 * Run the emulator or connect a physical device.
